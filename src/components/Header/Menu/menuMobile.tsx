@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./menu.scss";
+import "./Menu.scss";
 import icon from "../../../assets/icon-menu.png";
-import { MenuItems } from "./menuItems";
+import { MenuItems } from "./MenuItems";
 import { Account } from "../account/Account";
 
 interface deviceProps {

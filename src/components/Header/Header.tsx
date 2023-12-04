@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import { TopBar } from "./topBar/TopBar";
-import { MenuItems } from "./menu/menuItems";
+import { MenuItems } from "./Menu/MenuItems";
 import { MainHeader } from "./mainHeader/MainHeader";
 
 const Header = () => {

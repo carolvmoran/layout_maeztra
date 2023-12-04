@@ -2,7 +2,7 @@ import React from "react";
 import { Account } from "../account/Account";
 import Logo from "../../../assets/logo-maeztra-novo.png";
 import { Search } from "../search/Search";
-import { MenuMobile } from "../menu/menuMobile";
+import { MenuMobile } from "../Menu/MenuMobile";
 
 import "./MainHeader.scss";
 import { BtnCheckout } from "../account/BtnCheckout";
