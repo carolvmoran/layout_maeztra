@@ -1,5 +1,5 @@
 import React from "react";
-import { items } from "./items";
+import { itemsAccount } from "./itemsAccount";
 
 import "./Account.scss";
 
@@ -15,8 +15,8 @@ const Account = (props: deviceProps) => {
   return (
     <nav className={`${device && `account-items__${device}`} account-items`}>
       <ul className="account-items__container">
-        {items &&
-          items.map((e: any) => {
+        {itemsAccount &&
+          itemsAccount.map((e: any) => {
             return (
               <a className="account-items__link" href={e.url} title={e.name}>
                 <li

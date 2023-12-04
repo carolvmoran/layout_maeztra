@@ -1,5 +1,5 @@
 import React from "react";
-import { items } from "./items";
+import { itemsAccount } from "./itemsAccount";
 
 import bag from "../../../assets/icon-shoppingbag.png";
 
@@ -10,13 +10,13 @@ const BtnCheckout = (props: deviceProps) => {
   const { device } = props;
   return (
     <>
-      {items && items[2] ? (
+      {itemsAccount && itemsAccount[2] ? (
         <a
           className={`${device && `btn-checkout__${device}`}`}
-          href={items[2].url}
-          title={items[2].name}
+          href={itemsAccount[2].url}
+          title={itemsAccount[2].name}
         >
-          {items[2].icon && <img src={bag} alt={items[2].name} />}
+          {itemsAccount[2].icon && <img src={bag} alt={itemsAccount[2].name} />}
         </a>
       ) : (
         <></>

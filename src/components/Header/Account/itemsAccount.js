@@ -1,4 +1,4 @@
-export const items = [
+export const itemsAccount = [
   {
     id: 1,
     icon: true,

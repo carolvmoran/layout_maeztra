@@ -1,5 +1,5 @@
 import React from "react";
-import { items } from "./items";
+import { itemsMenu } from "./itemsMenu";
 import "./menu.scss";
 import Icon from "../../../assets/icon-dress.png";
 
@@ -12,8 +12,8 @@ const MenuItems = (props: deviceProps) => {
   return (
     <nav className={`${device && `menu-items__${device}`} menu-items`}>
       <ul className="menu-items__container">
-        {items &&
-          items.map((e) => {
+        {itemsMenu &&
+          itemsMenu.map((e) => {
             return (
               <a className="menu-items__link" href={e.url} title={e.name}>
                 <li

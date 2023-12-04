@@ -1,4 +1,4 @@
-export const items = [
+export const itemsMenu = [
   {
     id: 1,
     icon: true,

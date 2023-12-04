@@ -1,12 +1,12 @@
 import React from "react";
-import { Account } from "../Account/Account";
+import { Account } from "../account/Account";
 import Logo from "../../../assets/logo-maeztra-novo.png";
-import { Search } from "../Search/Search";
-import { MenuMobile } from "../Menu/menuMobile";
+import { Search } from "../search/Search";
+import { MenuMobile } from "../menu/menuMobile";
 
 import "./MainHeader.scss";
-import { BtnCheckout } from "../Account/BtnCheckout";
-import { SearchBtn } from "../Search/SearchBtn";
+import { BtnCheckout } from "../account/BtnCheckout";
+import { SearchBtn } from "../search/SearchBtn";
 interface deviceProps {
   device: string;
 }
