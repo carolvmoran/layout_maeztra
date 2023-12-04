@@ -1,5 +1,5 @@
 import React from "react";
-import { items } from "./items";
+import { itemsInstitucional } from "./itemsInstitucional";
 import "./menuInstitucional.scss";
 
 interface deviceProps {
@@ -11,8 +11,8 @@ const MenuItems = (props: deviceProps) => {
   return (
     <nav className={`${device && `menu-items__${device}`} menu-items`}>
       <ul className="menu-items__container">
-        {items &&
-          items.map((e) => {
+        {itemsInstitucional &&
+          itemsInstitucional.map((e) => {
             return (
               <div className="menu-items__context">
                 <li className="menu-items__title">{e.name}</li>

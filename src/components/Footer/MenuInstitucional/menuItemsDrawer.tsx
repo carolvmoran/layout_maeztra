@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { items } from "./items";
+import { itemsInstitucional } from "./itemsInstitucional";
 import "./menuInstitucional.scss";
 
 interface DeviceProps {
@@ -26,8 +26,8 @@ const MenuItemsDrawer: React.FC<DeviceProps> = (props) => {
   return (
     <nav className={`${device && `menu-items__${device}`} menu-items`}>
       <ul className="menu-items__container">
-        {items &&
-          items.map((menuItem: MenuItem) => (
+        {itemsInstitucional &&
+          itemsInstitucional.map((menuItem: MenuItem) => (
             <div className="menu-items__context" key={menuItem.id}>
               <button
                 className="menu-items__titleBtm"

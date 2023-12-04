@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Carousel.scss";
-import { banners } from "./banners";
+import { bannersHome } from "./bannersHome";
 
 const Carousel = () => {
   const [bannerDevice, setBannerDevice] = useState(window.innerWidth >= 1025);
@@ -29,8 +29,8 @@ const Carousel = () => {
   return (
     <div className="carousel">
       <Slider {...settings}>
-        {banners &&
-          banners.map((e: any) => {
+        {bannersHome &&
+          bannersHome.map((e: any) => {
             return (
               <a className="carousel-item__container" href={e.url}>
                 <img src={bannerDevice ? e.img : e.imgMob} alt={e.title} />

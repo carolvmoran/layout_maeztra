@@ -1,6 +1,6 @@
 import bannerPrincipal from "../../assets/bannerPrincipal.png";
 import bannerPrincipalMobile from "../../assets/bannerPrincipalMobile.png";
-export const banners = [
+export const bannersHome = [
   {
     id: 1,
     title: "Promoções de Outono",
