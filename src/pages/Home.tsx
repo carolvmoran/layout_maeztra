@@ -10,7 +10,7 @@ import BannerFooter from "../components/Banners/BannerFooter";
 
 const Home = () => {
   return (
-    <>
+    <div className="Home">
       <Header />
       <main>
         <Carousel />
@@ -20,7 +20,7 @@ const Home = () => {
         <BannerFooter />
       </main>
       <Footer />
-    </>
+    </div>
   );
 };
 
