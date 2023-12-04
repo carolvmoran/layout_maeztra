@@ -1,7 +1,7 @@
 import "./CarouselBenefits.scss";
 import { benefits } from "./benefits";
 
-const PerkBar = () => {
+const BenefitsBar = () => {
   return (
     <div className="carousel-benefits-item">
       {benefits &&
@@ -20,4 +20,4 @@ const PerkBar = () => {
   );
 };
 
-export default PerkBar;
+export default BenefitsBar;
