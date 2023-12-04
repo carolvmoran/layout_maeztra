@@ -1,6 +1,6 @@
 import React from "react";
 
-// import { Header } from "../components/header/Header";
+import { Header } from "../components/header/Header";
 import { Footer } from "../components/Footer/Footer";
 import Carousel from "../components/Banners/Carousel";
 import CarouselProductCards from "../components/ProductCards/CarouselProductCards";
@@ -11,7 +11,7 @@ import BannerFooter from "../components/Banners/BannerFooter";
 const Home = () => {
   return (
     <div className="Home">
-      {/* <Header /> */}
+      <Header />
       <main>
         <Carousel />
         <CarouselBenefits />
