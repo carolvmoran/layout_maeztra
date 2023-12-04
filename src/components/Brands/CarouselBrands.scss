@@ -6,6 +6,9 @@
     font-size: 32px;
     font-weight: 700;
     margin: 74px 0 17px 0;
+    @media (max-width: 1024px) {
+      margin: 40px 0 25px 0;
+    }
   }
   &-item {
     display: flex;
