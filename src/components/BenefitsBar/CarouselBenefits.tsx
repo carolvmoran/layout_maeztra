@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./CarouselBenefits.scss";
 import { benefits } from "./benefits";
-import PerkBar from "./PerkBar";
+import PerkBar from "./BenefitsBar";
 
 const CarouselBenefits = () => {
   const [benefitsDevice, setBenefitsDevice] = useState(
