@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 
-import { TopBar } from "./topBar/TopBar";
-import { MenuItems } from "./Menu/MenuItems";
-import { MainHeader } from "./mainHeader/MainHeader";
+import { TopBar } from "./TopBar/TopBar";
+import { MenuItems } from "./Menu/menuItems";
+import { MainHeader } from "./MainHeader/MainHeader";
 
 const Header = () => {
   const device = window.innerWidth >= 1025 ? "desktop" : "mobile";

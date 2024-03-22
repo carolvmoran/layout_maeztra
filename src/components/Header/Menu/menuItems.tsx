@@ -1,6 +1,6 @@
 import React from "react";
 import { itemsMenu } from "./itemsMenu";
-import "./Menu.scss";
+import "./menu.scss";
 import Icon from "../../../assets/icon-dress.png";
 
 interface deviceProps {

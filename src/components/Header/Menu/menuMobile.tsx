@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "./Menu.scss";
+import "./menu.scss";
 import icon from "../../../assets/icon-menu.png";
-import { MenuItems } from "./MenuItems";
-import { Account } from "../account/Account";
+import { MenuItems } from "./menuItems";
+import { Account } from "../Account/Account";
 
 interface deviceProps {
   device: string;
